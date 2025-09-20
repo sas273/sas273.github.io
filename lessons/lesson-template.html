@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WCED • Lesson Title</title>
+  <style>
+    /* Inline lesson page styles (self-contained) */
+    :root{--bg:#0f172a;--panel:#111827;--muted:#94a3b8;--text:#e5e7eb;--brand:#38bdf8;--accent:#a78bfa;--border:#1f2937}
+    html,body{height:100%} body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica Neue,Arial;background:linear-gradient(180deg,var(--bg),#0b1220 55%);color:var(--text);line-height:1.55}
+    .container{max-width:1100px;margin:0 auto;padding:32px 20px 60px}
+    .badge{display:inline-flex;gap:8px;align-items:center;background:#0b1220;border:1px solid var(--border);color:var(--muted);padding:6px 10px;border-radius:999px;font-size:12px}
+    h1{font-size:clamp(28px,4.2vw,44px);margin:0;letter-spacing:-.02em}
+    .subtitle{color:var(--muted);margin:4px 0 16px}
+    .nav{display:flex;gap:8px;flex-wrap:wrap}
+    .nav a{color:var(--muted);text-decoration:none;padding:6px 10px;border:1px solid var(--border);border-radius:999px;font-size:12px}
+    .card{background:rgba(17,24,39,.85);border:1px solid var(--border);border-radius:18px;padding:20px;box-shadow:0 10px 35px rgba(0,0,0,.25);margin:12px 0}
+    h2{font-size:clamp(18px,2.4vw,24px);margin-top:0}
+    h3{font-size:clamp(16px,2vw,20px);margin-bottom:8px}
+    .pill{display:inline-block;font-size:12px;color:white;background:linear-gradient(90deg,var(--brand),var(--accent));padding:2px 10px;border-radius:999px;margin-left:8px;vertical-align:middle}
+    .muted{color:var(--muted)}
+    .list-tight li{margin:6px 0}
+    .qa{margin-top:8px;padding:10px 12px;border-left:3px solid var(--brand);background:#0b1220;border-radius:10px}
+    .two-col{display:grid;gap:12px;grid-template-columns:1fr}
+    @media(min-width:720px){.two-col{grid-template-columns:1fr 1fr}}
+    table{width:100%;border-collapse:collapse}
+    th,td{border:1px solid var(--border);padding:10px;text-align:left}
+    th{background:#0b1220}
+    .footer-note{font-size:12px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">WCED • World Class Education in an Hour a Day</span>
+      <h1>Lesson Title (Grade X)</h1>
+      <p class="subtitle">Term • Week • Day • Estimated time: ~60 minutes</p>
+      <nav class="nav">
+        <a href="#overview">Overview</a>
+        <a href="#memory">Memory Task</a>
+        <a href="#spiral">Spiral Review</a>
+        <a href="#fiction">Fiction Reading</a>
+        <a href="#nonfiction">Nonfiction Reading</a>
+        <a href="#activity">Applied Activity</a>
+        <a href="#wrap">Wrap-Up</a>
+        <a href="#discover">Discovery & Enrichment</a>
+      </nav>
+    </header>
+
+    <main class="card" id="overview">
+      <h2>1) Lesson Overview</h2>
+      <p><strong>Objectives:</strong> Replace with your specific outcomes.</p>
+      <ul class="list-tight">
+        <li><strong>Focus Topic:</strong> Replace…</li>
+        <li><strong>Cross-links:</strong> Replace…</li>
+      </ul>
+    </main>
+
+    <section class="card" id="memory">
+      <h2>2) Memory Task <span class="pill">~5–7 min</span></h2>
+      <p><strong>Today’s Facts:</strong> Replace…</p>
+      <div class="qa">
+        <strong>Quick Recall (Yesterday’s review)</strong>
+        <ol>
+          <li>Replace…</li>
+          <li>Replace…</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="card" id="spiral">
+      <h2>3) Spiral Review <span class="pill">~10 min</span></h2>
+      <div class="two-col">
+        <div>
+          <h3>Mixed Practice</h3>
+          <ul class="list-tight">
+            <li>Replace…</li>
+            <li>Replace…</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Short Match</h3>
+          <p class="muted">Describe your interactive here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="fiction">
+      <h2>4) Reading 1 — Fiction <span class="pill">~10–12 min</span></h2>
+      <p class="muted">Insert fiction excerpt or summary.</p>
+      <div class="qa">
+        <strong>Comprehension & Language</strong>
+        <ol>
+          <li>Replace…</li>
+          <li>Replace…</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="card" id="nonfiction">
+      <h2>5) Reading 2 — Nonfiction <span class="pill">~10–12 min</span></h2>
+      <p>Insert nonfiction passage or bullet points.</p>
+      <div class="qa">
+        <strong>Check Your Understanding</strong>
+        <ol>
+          <li>Replace…</li>
+          <li>Replace…</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="card" id="activity">
+      <h2>6) Applied Activity <span class="pill">~15–20 min</span></h2>
+      <p>Describe the activity (data table, compare/contrast, experiment, etc.).</p>
+    </section>
+
+    <section class="card" id="wrap">
+      <h2>7) Wrap-Up <span class="pill">~5 min</span></h2>
+      <ol>
+        <li>Exit Ticket item…</li>
+        <li>Exit Ticket item…</li>
+      </ol>
+    </section>
+
+    <section class="card" id="discover">
+      <h2>8) Discovery & Enrichment (Optional)</h2>
+      <div class="two-col">
+        <div>
+          <h3>Discovery Learning</h3>
+          <ul class="list-tight"><li>Replace…</li></ul>
+          <h3>Classroom Fun</h3>
+          <ul class="list-tight"><li>Replace…</li></ul>
+        </div>
+        <div>
+          <h3>Cross‑Media Picks</h3>
+          <ul class="list-tight"><li>Replace…</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="muted" style="margin-top:24px">
+      <div class="hr"></div>
+      <p>WCED • Lesson template. <span class="footer-note">Duplicate this file for new lessons.</span></p>
+    </footer>
+  </div>
+</body>
+</html>
